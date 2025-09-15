@@ -17,9 +17,24 @@ This project demonstrates basic **password security principles** like length, ch
 ```bash
 $ python password_checker.py Fraddy@123 -------- (Enter your passward)
 
-Password Strength: Weak
-Suggestions to improve your password:
- - Make the password at least 8 characters long.
- - Use 12 or more characters for extra strength.
- - Add some uppercase letters.
- - Use symbols like ! @ # $ % ^ & *.
+{
+  "password": "Fraddy@123",
+  "classification": "Weak",
+  "score": 0,
+  "details": {
+    "length_score": 16,
+    "classes": {"lower": true, "upper": false, "digit": true, "symbol": false},
+    "entropy_bits": 39.86,
+    "entropy_score": 12.46,
+    "raw_score": 44.46,
+    "penalties": 50,
+    "final_score": 0
+  },
+  "suggestions": [
+    "Add uppercase letters.",
+    "Add symbols (e.g. !@#$%).",
+    "Do not use common passwords (e.g. 'password', '123456').",
+    "Avoid plain dictionary words; consider mixing or using unrelated words."
+  ]
+}
+
