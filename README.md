@@ -6,10 +6,15 @@ This project demonstrates basic **password security principles** like length, ch
 ---
 
 ## 🚀 Features
-- Classifies passwords as **Weak, Better, or Strong**
-- Provides actionable **suggestions to improve weak passwords**
-- Simple **command-line interface (CLI)**
-- Beginner-friendly Python project for cybersecurity portfolios
+✅ Strength Scoring (0–100 scale, classified as Weak, Better, or Strong)
+✅ Entropy Estimation (measures randomness in bits)
+✅ Character Class Detection (lowercase, uppercase, digits, symbols)
+✅ Common Password Detection (flags widely used/unsafe passwords)
+✅ Dictionary Word Detection (detects plain dictionary words in passwords)
+✅ Sequence Detection (e.g., abcd, 1234, qwerty)
+✅ Repetition Penalty (penalizes long runs of repeated characters)
+✅ Suggestions (clear tips to strengthen weak passwords)
+✅ CLI Support – run directly from the terminal
 
 ---
 
