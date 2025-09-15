@@ -15,8 +15,7 @@ This project demonstrates basic **password security principles** like length, ch
 
 ## 📸 Example Usage
 ```bash
-$ python password_checker.py
-Enter your password: pass123
+$ python password_checker.py Fraddy@123 -------- (Enter your passward)
 
 Password Strength: Weak
 Suggestions to improve your password:
