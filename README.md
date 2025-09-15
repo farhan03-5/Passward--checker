@@ -1,7 +1,7 @@
 # 🔐 Password Strength Checker (Python)
 
-A simple **Cybersecurity project** that checks if a password is **Weak / Better / Strong** and gives **suggestions to improve it**.  
-This project demonstrates basic **password security principles** like length, character variety, and entropy.
+passward-checker is a Python module and CLI tool that analyzes password strength and provides actionable feedback.
+It helps users create stronger, more secure passwords by evaluating length, character variety, entropy, common/dictionary word usage, sequences, and repetition patterns.
 
 ---
 
